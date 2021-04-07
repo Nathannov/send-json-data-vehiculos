@@ -1,0 +1,33 @@
+{
+  "name": "send-json-data-vehiculos",
+  "version": "1.0.0",
+  "description": "envío de agendamiento de vehículos",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start_local": "node -r dotenv/config app.js",
+    "nodemon": "nodemon -r dotenv/config app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nathannov/send-json-data-vehiculos.git"
+  },
+  "author": "Jonathan Valencia Navarro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nathannov/send-json-data-vehiculos/issues"
+  },
+  "homepage": "https://github.com/Nathannov/send-json-data-vehiculos#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "body-parser": "^1.19.0",
+    "colors": "^1.4.0",
+    "compression": "^1.7.4",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^4.1.1",
+    "multer": "^1.4.2",
+    "request": "^2.88.2",
+    "xlsx-to-json-lc": "^0.5.0"
+  }
+}
